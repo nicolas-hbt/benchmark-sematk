@@ -2,7 +2,7 @@
 
 ## Abstract
 Using knowledge graph embedding models (KGEMs) is a popular approach for predicting links in knowledge graphs (KGs). Traditionally, the performance of KGEMs for link prediction is assessed using rank-based metrics, which evaluate their ability to give high scores to ground-truth entities. However, the literature claims that the KGEM evaluation procedure would benefit from adding supplementary dimensions to assess.
-That is why, in this paper, we extend our previously introduced metric Sem@$K$ that measures the capability of models to predict valid entities w.r.t. domain and range constrains.
+That is why, in this paper, we extend our previously introduced metric Sem@K that measures the capability of models to predict valid entities w.r.t. domain and range constrains.
 In particular, we consider a broad range of KGs and take their respective characteristics into account to propose different versions of Sem@K.
 We also perform an extensive study of KGEM semantic awareness.
 Our experiments show that Sem@K provides a new perspective on KGEM quality. Its joint analysis with rank-based metrics offer different conclusions on the predictive power of models. Regarding Sem@K, some KGEMs are inherently better than others, but this semantic superiority is not indicative of their performance w.r.t. rank-based metrics. In this work, we generalize conclusions about the relative performance of KGEMs w.r.t. rank-based and semantic-oriented metrics at the level of families of models. The joint analysis of the aforementioned metrics gives more insight into the peculiarities of each model. This work paves the way for a more comprehensive evaluation of KGEM adequacy for specific downstream tasks.
